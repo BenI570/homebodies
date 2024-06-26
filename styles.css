@@ -34,11 +34,28 @@ header {
 }
 .navbar {
     justify-content: space-between;
-    /* text-transform: uppercase; */
 }
 .nav {
     align-items: center;
 }
+.nav a {
+    margin-left: 16px;
+    color: var(--accent);
+    text-transform: uppercase;
+}
 .logo {
     font-size: 32px;
+}
+.hero {
+    padding-block: 200px;
+}
+.cta {
+    width: 50%;
+}
+.cta p {
+    margin-block: 16px;
+}
+.hero-icon {
+    font-size: 112px;
+    margin-inline: auto;
 }
