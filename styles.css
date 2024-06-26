@@ -1,41 +1,44 @@
 * {
-	/*outline: 1px solid orange;*/
-	margin: 0;
-	padding: 0;
+    /*outline: 1px solid orange;*/
+    margin: 0;
+    padding: 0;
 }
 
 :root {
-	--primary-clr: rgb(238, 243, 247);
-	--accent: rgba(75, 112, 144, 0.315);
-	--light: rgb(255, 255, 255);
-	--dark: rgb(61, 67, 85);
+    --header-background: rgb(238, 243, 247);
+    --selected-text-bars-and-unselected-icons: rgb(191, 204, 216);
+    --regular-text-and-selected-icons: rgb(119, 135, 148);
+    /*--header-regular-text: rgb(119, 135, 148);*/
+    /*--blue-selected-icons-and-body-text: rgb(121, 137, 149);*/
+    /*--blue-unselected-icons: rgb(194, 207, 218);*/
+    --dark-text: rgb(61, 67, 85);
 }
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 .bold {
-	font-weight: bold;
+    font-weight: bold;
 }
 .flex {
-	display: flex;
+    display: flex;
 }
 .container {
-	width: 60rem;
-	margin-inline: auto;
+    width: 60rem;
+    margin-inline: auto;
 }
 header {
-	background-color: var(--primary-clr);
+    background-color: var(--header-background);
 }
 .navbar {
-	justify-content: space-between;
-	/* text-transform: uppercase; */
+    justify-content: space-between;
+    /* text-transform: uppercase; */
 }
 .nav {
-	align-items: center;
+    align-items: center;
 }
 .logo {
-	font-size: 32px;
+    font-size: 32px;
 }
