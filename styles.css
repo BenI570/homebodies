@@ -34,28 +34,94 @@ header {
 }
 .navbar {
     justify-content: space-between;
+    padding-top: 10px;
 }
 .nav {
     align-items: center;
 }
 .nav a {
     margin-left: 16px;
-    color: var(--accent);
+    color: var(--regular-text-and-selected-icons);
     text-transform: uppercase;
+    border-bottom: 3px var(--header-background) solid;
+}
+.nav a:hover {
+    color: var(--dark-text);
+    border-bottom: 3px var(--selected-text-bars-and-unselected-icons) solid;
 }
 .logo {
     font-size: 32px;
+    color: var(--dark-text);
 }
 .hero {
     padding-block: 200px;
 }
 .cta {
     width: 50%;
+    font-family: "Plus Jakarta Sans";
 }
 .cta p {
     margin-block: 16px;
+    color: var(--regular-text-and-selected-icons);
+}
+.cta h1 {
+    color: var(--dark-text);
+}
+.cta button {
+    background-color: var(--selected-text-bars-and-unselected-icons);
+    color: white;
+    border-radius: 24px;
+    border: none;
+    padding: 15px 32px;
+}
+.cta button:hover {
+    background-color: var(--regular-text-and-selected-icons);
+}
+.cta button:focus {
+    background-color: var(--dark-text);
 }
 .hero-icon {
     font-size: 112px;
     margin-inline: auto;
+    color: var(--selected-text-bars-and-unselected-icons);
+}
+main {
+    text-align: center;
+}
+.main-text {
+    margin: 0 auto;
+    width: 50%;
+    margin-block: 110px;
+}
+.main-text h3 {
+    font-size: 32px;
+    padding-bottom: 16px;
+    color: var(--dark-text);
+}
+.main-text p {
+    color: var(--regular-text-and-selected-icons);
+}
+.icons {
+    margin-bottom: 110px;
+}
+.icons div {
+    margin-inline: 10px;
+    border-top: 8px white solid;
+    color: var(--selected-text-bars-and-unselected-icons);
+}
+.icons div:hover {
+    color: var(--regular-text-and-selected-icons);
+    border-top: 8px var(--selected-text-bars-and-unselected-icons) solid;
+}
+.icons h4 {
+    margin-block: 16px;
+    color: var(--regular-text-and-selected-icons);
+}
+.icons i {
+    margin-block: 16px;
+    font-size: 50px;
+}
+.icons p {
+    margin-block: 16px;
+    color: var(--regular-text-and-selected-icons);
 }
